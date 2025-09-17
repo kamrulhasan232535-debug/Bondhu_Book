@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f0f2f5;
+}
+.nav{
+    height:80px;
+    max-width: 100%;
+    background-color:  rgb(226, 226, 226);
+    color:white;
+    display: block;
+    align-items: center;
+    overflow-x: hidden;
+}
+.navline{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar {
+    background-color:  rgb(226, 226, 226);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.home{
+    height: 20px;
+    width:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 28%;
+    color: #ff7300;
+}.home img{
+    height: 30px;
+    width:30px;
+    color: #ff7300;
+}
+.friends{
+    height: 20px;
+    width:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 10%;
+}.friends img{
+    height: 30px;
+    width:30px;
+    color: #ff7300;
+}
+.vedio{
+    height: 20px;
+    width:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 10%;
+}.vedio img{
+    height: 30px;
+    width:30px;
+    color: #ff7300;
+}.notification{
+    height: 20px;
+    width:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 10%;
+}.notification img{
+    height: 30px;
+    width:30px;
+
+}
+.navtext{
+    color: #ff0000;
+}
+.navsearch{
+    margin-top: 5px;
+    margin-left: 25%;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: none;
+    border-radius: 5px;
+   
+}
+.navsearch input{
+        width:100%;
+        font-size: 15px;
+        height: 100%;
+        border-radius:25px;
+        padding-left: 75px;
+}
+
+.bbms{
+    height:35px;
+    width: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 25%;
+}.bbms img{
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+    
+}
+.msg{
+     height: 20px;
+    width:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 15%;
+}
+.profile{
+    height: 20px;
+    width:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 2%;
+}
+.profile img{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+}
+.profile button{
+    border-radius: 50%;
+}
+.msg img{
+    height: 30px;
+    width:30px;
+}.menu{
+     height: 20px;
+    width:30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left:2%;
+}
+.menu img{
+    height: 30px;
+    width:30px;
+}
+
+.main {
+  display: block;
+  width: 100%;
+}
+
+.post-box {
+    background: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post-box textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    resize: none;
+    border-radius: 10px;
+}
+
+.post-box button {
+    margin-top: 2px;
+    background: #ffa600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 5px;
+}
+.profile1{
+    height: 50px;
+    width: 50px;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.profile1 img{
+    height: 50px;
+    width: 50px;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.post {
+    background: white;
+    border-radius: 8px;
+    height: 400px;
+    margin-bottom: 20px;
+     
+}
+.userprofilestory{
+    height: 100px;
+    width:100px;
+    background-color: #f0f2f5;
+}
+.userprofilestory img{
+    height: 100px;
+    width:100px;
+    background-color: white;
+   
+}
+.userprofilestory button{
+    background-color: white;
+   
+}
+button:hover{
+    background-color:gray;
+    cursor: pointer;
+    img{
+        background-color: gray;
+    }
+    
+    
+}
+
+.creat{
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+    background-color: gray;
+}
+.creat img{
+    height: 20px;
+    width: 20px;
+}
+.rightbar {
+    width: 20%;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    height: fit-content;
+}
+.container {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hole{
+    overflow-x: scroll;
+}/* ===== Tablets (width <= 768px) ===== */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+        margin: 0;
+    }
+
+    .navsearch {
+        width: 60%;
+        margin-left: 10%;
+    }
+
+    .home,
+    .friends,
+    .vedio,
+    .msg,
+    .notification,
+    .menu,
+    .profile {
+        padding-left: 3%;
+    }
+
+    .post-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .post-box textarea {
+        width: 100%;
+        height: 60px;
+    }
+
+    .post-box button {
+        width: 100%;
+        height: 40px;
+    }
+}
+
+/* ===== Mobiles (width <= 480px) ===== */
+@media (max-width: 480px) {
+    .navline {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .container {
+        flex-direction: column;
+        margin: 10px;
+        width: 100%;
+    }
+    .navsearch {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .bbms {
+        margin-left: 10px;
+    }
+
+    .post-box {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .post-box textarea {
+        height: 60px;
+    }
+
+    .post-box button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .userprofilestory {
+        width: 80px;
+        height: 80px;
+    }
+
+    .userprofilestory img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile1,
+    .profile1 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home,
+    .friends,
+    .vedio,
+    .msg,
+    .notification,
+    .menu,
+    .profile {
+        padding-left: 2%;
+    }
+
+}
+
+.dashslot {
+    width: 100%;
+    background-color: white;
+    margin: 0 auto; /* center horizontally */
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: scroll;
+    display: block;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .dashslot {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 8px;
+        height: auto;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 480px) {
+    .dashslot {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 8px;
+        height: auto;
+    }
+}
+

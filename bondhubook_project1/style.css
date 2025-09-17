@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #ff5f5f;
+}
+.nav{
+    height:80px;
+    max-width: 100%;
+    background-color:  #f85b00;
+    color:white;
+    display: block;
+    align-items: center;
+    overflow-x: hidden;
+}
+.navline{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar {
+    background-color:  #f85b00;
+    color: #f85b00;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.navsearch{
+    margin-top: 5px;
+    margin-left: 25%;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navsearch input{
+        width:100%;
+        font-size: 15px;
+        height: 100%;
+        border-radius:25px;
+        padding-left: 75px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.bbms{
+    height:35px;
+    width: 35px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    width: 60%;
+    margin: 0 20px;
+}
+
+.post-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post-box textarea {
+    width: 100%;
+    padding: 10px;
+    resize: none;
+}
+
+.post-box button {
+    margin-top: 10px;
+    background: #ffa600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.rightbar {
+    width: 20%;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    height: fit-content;
+}
